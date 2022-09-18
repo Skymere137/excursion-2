@@ -1,8 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
 body {
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    padding: 20px;
+}
+main h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    padding: 20px;
+    font-size: 50px;
+}
+h2 {
+    color: aquamarine;
+    text-decoration: underline;
+    font-size: 16px;
+    padding: 20px;
+}
+h3 {
+    color: grey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+
+}
+header {
+    margin: auto;
+    background-color: black;
+    width: 1272px;
+    text-align: center;
+}
+main {
+    width: 1272px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:column;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+footer {
+    width: 1272px;
+    text-align: right;
     background-color: black;
 }
-
 .image {
-    width: 800px;
-    height: 600px;
+    padding: 20px;
 }
+
